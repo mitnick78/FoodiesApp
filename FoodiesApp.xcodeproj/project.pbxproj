@@ -11,6 +11,14 @@
 		D91502E8293BF61A00CF052D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91502E7293BF61A00CF052D /* ContentView.swift */; };
 		D91502EA293BF61C00CF052D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91502E9293BF61C00CF052D /* Assets.xcassets */; };
 		D91502ED293BF61C00CF052D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91502EC293BF61C00CF052D /* Preview Assets.xcassets */; };
+		D91502F4293BF75700CF052D /* ToogleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91502F3293BF75700CF052D /* ToogleMenu.swift */; };
+		D91502F6293BF91100CF052D /* PickerMeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91502F5293BF91100CF052D /* PickerMeat.swift */; };
+		D91502F8293BFD7100CF052D /* MeatImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91502F7293BFD7100CF052D /* MeatImage.swift */; };
+		D91502FA293BFE9900CF052D /* StepperCondiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91502F9293BFE9900CF052D /* StepperCondiments.swift */; };
+		D91502FC293C038000CF052D /* ToogleSauce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91502FB293C038000CF052D /* ToogleSauce.swift */; };
+		D91502FE293C084F00CF052D /* PickerDrinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91502FD293C084F00CF052D /* PickerDrinks.swift */; };
+		D9150300293CB04800CF052D /* ToogleFries.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91502FF293CB04800CF052D /* ToogleFries.swift */; };
+		D9150302293CB26E00CF052D /* SliderCheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9150301293CB26E00CF052D /* SliderCheese.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		D91502E7293BF61A00CF052D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D91502E9293BF61C00CF052D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91502EC293BF61C00CF052D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D91502F3293BF75700CF052D /* ToogleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToogleMenu.swift; sourceTree = "<group>"; };
+		D91502F5293BF91100CF052D /* PickerMeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerMeat.swift; sourceTree = "<group>"; };
+		D91502F7293BFD7100CF052D /* MeatImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatImage.swift; sourceTree = "<group>"; };
+		D91502F9293BFE9900CF052D /* StepperCondiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCondiments.swift; sourceTree = "<group>"; };
+		D91502FB293C038000CF052D /* ToogleSauce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToogleSauce.swift; sourceTree = "<group>"; };
+		D91502FD293C084F00CF052D /* PickerDrinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDrinks.swift; sourceTree = "<group>"; };
+		D91502FF293CB04800CF052D /* ToogleFries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToogleFries.swift; sourceTree = "<group>"; };
+		D9150301293CB26E00CF052D /* SliderCheese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCheese.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				D91502E5293BF61A00CF052D /* FoodiesAppApp.swift */,
 				D91502E7293BF61A00CF052D /* ContentView.swift */,
+				D9150301293CB26E00CF052D /* SliderCheese.swift */,
+				D91502FD293C084F00CF052D /* PickerDrinks.swift */,
+				D91502FF293CB04800CF052D /* ToogleFries.swift */,
+				D91502FB293C038000CF052D /* ToogleSauce.swift */,
+				D91502F9293BFE9900CF052D /* StepperCondiments.swift */,
+				D91502F7293BFD7100CF052D /* MeatImage.swift */,
+				D91502F5293BF91100CF052D /* PickerMeat.swift */,
+				D91502F3293BF75700CF052D /* ToogleMenu.swift */,
 				D91502E9293BF61C00CF052D /* Assets.xcassets */,
 				D91502EB293BF61C00CF052D /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91502F6293BF91100CF052D /* PickerMeat.swift in Sources */,
+				D91502F4293BF75700CF052D /* ToogleMenu.swift in Sources */,
+				D9150300293CB04800CF052D /* ToogleFries.swift in Sources */,
 				D91502E8293BF61A00CF052D /* ContentView.swift in Sources */,
+				D91502F8293BFD7100CF052D /* MeatImage.swift in Sources */,
 				D91502E6293BF61A00CF052D /* FoodiesAppApp.swift in Sources */,
+				D91502FA293BFE9900CF052D /* StepperCondiments.swift in Sources */,
+				D91502FE293C084F00CF052D /* PickerDrinks.swift in Sources */,
+				D91502FC293C038000CF052D /* ToogleSauce.swift in Sources */,
+				D9150302293CB26E00CF052D /* SliderCheese.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
